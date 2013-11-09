@@ -1,0 +1,751 @@
+/*************** MOBILE STYLES ***********************/
+
+@media screen and ( min-width: 320px ) and ( max-width: 767px ) {
+
+/**** Mobile Main Page ****/
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #A1AB00;
+}
+
+.cell-info {
+	background-color: black;
+	width: 100%;
+	height: 10px;
+}
+
+.main-header {
+	width: 100%;content:   
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	border-top-left-radius: 25px 25px;
+	border-top-right-radius: 25px 25px;
+}
+
+.main-header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px 0px 5px 0px;
+	font-weight: bold;
+}
+
+.main-header h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #DFDBC2;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px;
+}
+
+.container-header {
+	width: 98.5%;
+	overflow: hidden;
+	padding: 5px 0px 5px 5px;
+	border-bottom: 1px solid black;
+}
+
+.container-header .header-image img {
+	width: 8.5%;
+	float: left;
+	margin-right: 60px;
+	border: 1px solid black;
+}
+
+.container .container-header .header-name-birth {
+	float: left;
+}
+
+.container .container-header .header-name-birth li {
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.container .container-body {
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+}
+
+.container .container-body .little-widget {
+	overflow: hidden;
+	border: 1px solid black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: white;
+	width: 92%;
+}
+
+.container .container-body .little-widget .icon,
+.container .container-body .little-widget .info {
+	float: left;
+}
+
+.container .container-body .little-widget .icon h1 {
+	width: 85%;
+	font-size: 46px;
+	padding: 2px;
+	font-family: sans-serif;
+	border-right: 1px solid black;
+}
+
+.container .container-body .little-widget .info ul {
+	padding: 5px;
+}
+
+.container .container-body .little-widget .info ul li {
+	text-decoration: none;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	font-family: sans-serif;
+}
+
+.container .container-footer {
+	width: 100%;
+}
+
+.container .container-footer .footer-tabs {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.container .container-footer .footer-tabs li {
+	float: left;
+	width: 29%;
+	text-align: center;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+.container .container-footer .footer-tabs li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.container .container-footer .footer-tabs .family,
+.container .container-footer .footer-tabs .media {
+	border-right: 1px solid black;
+}
+
+.nav {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: gray;
+	position: fixed;
+	bottom: 0px;
+}
+
+.nav img {
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	margin: 0px 60px 0px 60px;
+}
+
+/****** Mobile Family Page *****/
+
+.interior-nav {
+	width: 100%;
+	background-color: #DFDBC2;
+	border-bottom: 2px solid black;
+}
+
+.interior-nav ul {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.interior-nav ul li {
+	float: left;
+	font-family: sans-serif;
+	width: 20%;
+	margin-left: 11%;
+}
+
+.interior-nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.interior-holder {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #D0D0D0;
+}
+
+.interior-holder .interior-header p {
+	padding: 5px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+}
+
+.interior-holder .interior-content-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.interior-holder .interior-content-container.siblings {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.interior-holder .interior-content-container .interior-content {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-image,
+.interior-holder .interior-content .interior-name-date {
+	float: left;
+}
+
+.interior-holder .interior-content-container .interior-content img.interior-image {
+	width: 15%;
+	border-right: 1px solid black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul {
+	padding: 10px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul li.name {
+	font-size: 14px;
+	margin-bottom: 2px;
+	color: black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul li.date {
+	font-size: 10px;
+	color: black;
+}
+
+/**** Mobile Records Page ********/
+
+.records-content {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.records-content .records-image-container {
+	background-color: black;
+	width: 81%;
+	margin-left: 10%;
+}
+
+.records-content .records-image-container2 {
+	background-color: black;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.records-content .records-image-container3 {
+	background-color: black;
+	width: 66%;
+	margin-left: 17%;
+}
+
+.records-content .records-image-container4 {
+	background-color: black;
+	width: 83%;
+	margin-left: 9%;
+}
+
+.records-content .records-image-container img.records-census {
+	width: 250px;
+	height: 100px;
+	margin: 5px;
+}
+
+.records-content .records-image-container2 img.records-wwii {
+	width: 176px;
+	height: 200px;
+	margin: 8px;
+}
+
+.records-content .records-text-container {
+	background-color: gray;
+	margin-left: 10%;
+	margin-right: 9%;
+}
+
+.records-content .records-text-container2 {
+	background-color: gray;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.records-content .records-text-container p,
+.records-content .records-text-container2 p {
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.records-content .records-image-container3 img.records-obit {
+	width: 200px;
+	height: 159px;
+	margin: 5px;
+}
+
+.records-content .records-image-container4 img.records-ssdi {
+	width: 250px;
+	height: 88px;
+	margin: 8px;
+}
+
+/******* Mobile Profile Page ******************/
+
+.interior-holder {
+	width: 100%;
+	background-color: #D0D0D0;
+}
+
+.interior-holder .profile-header {
+
+}
+
+.interior-holder .profile-content-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	background-color: gray;
+}
+
+.interior-holder .profile-content-container.siblings {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.interior-holder .profile-content-container .profile-content {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-image,
+.interior-holder .profile-content .profile-name-date {
+	float: left;
+}
+
+.interior-holder .profile-content-container .profile-content img.profile-image {
+	width: 30%;
+	border-right: 1px solid black;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul {
+	padding: 10px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul li.name {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul li.date {
+	font-size: 16px;
+}
+
+}
+
+
+
+/************************* TABLET STYLES ***************************/
+
+@media screen and ( min-width: 768px ) and ( max-width: 991px) {
+
+.wrapper {
+width: 100%;
+margin: 0 auto;
+background-color: #A1AB00;
+}
+
+.container-wrapper {
+	overflow: hidden;
+	margin: 0px 25px 0px 25px;
+	border-top-left-radius: 25px 25px;
+	border-top-right-radius: 25px 25px;
+	background-color: #899200;
+	padding-bottom: 10px;
+}
+
+.main-header {
+	width: 100%;
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 20px 20px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+
+.main-header h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px 0px 5px 50px;
+	font-weight: bold;
+}
+
+.main-header h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 55%;
+	background-color: #DFDBC2;
+	margin: 20px 10px 0px 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px;
+	float: left;
+}
+
+.container-header {
+	width: 98.5%;
+	overflow: hidden;
+	padding: 5px 0px 5px 5px;
+	border-bottom: 1px solid black;
+}
+
+.container-header .header-image img {
+	width: 8.5%;
+	float: left;
+	margin-right: 60px;
+	border: 1px solid black;
+}
+
+.container .container-header .header-name-birth {
+	float: left;
+}
+
+.container .container-header .header-name-birth li {
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.container .container-body {
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+}
+
+.container .container-body .little-widget {
+	overflow: hidden;
+	border: 1px solid black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: white;
+	width: 92%;
+}
+
+.container .container-body .little-widget .icon,
+.container .container-body .little-widget .info {
+	float: left;
+}
+
+.container .container-body .little-widget .icon h1 {
+	width: 85%;
+	font-size: 46px;
+	padding: 2px;
+	font-family: sans-serif;
+	border-right: 1px solid black;
+}
+
+.container .container-body .little-widget .info ul {
+	padding: 5px;
+}
+
+.container .container-body .little-widget .info ul li {
+	text-decoration: none;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	font-family: sans-serif;
+}
+
+.container .container-footer {
+	width: 100%;
+}
+
+.container .container-footer .footer-tabs {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.container .container-footer .footer-tabs li {
+	float: left;
+	width: 29%;
+	text-align: center;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+.container .container-footer .footer-tabs li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.container .container-footer .footer-tabs .family,
+.container .container-footer .footer-tabs .media {
+	border-right: 1px solid black;
+}
+
+.nav {
+	width: 35%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	/*background-color: gray;*/
+	position: absolute;
+	top: 2px;
+	right: -20px;
+}
+
+.nav img {
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+/****** Tablet Family Page *****/
+
+.interior-nav {
+	width: 100%;
+	background-color: #DFDBC2;
+	border-bottom: 2px solid black;
+}
+
+.interior-nav ul {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.interior-nav ul li {
+	float: left;
+	font-family: sans-serif;
+	width: 20%;
+	margin-left: 11%;
+}
+
+.interior-nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.interior-holder {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #D0D0D0;
+}
+
+.interior-holder .interior-header p {
+	padding: 5px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+}
+
+.interior-holder .interior-content-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.interior-holder .interior-content-container.siblings {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.interior-holder .interior-content-container .interior-content {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-image,
+.interior-holder .interior-content .interior-name-date {
+	float: left;
+}
+
+.interior-holder .interior-content-container .interior-content img.interior-image {
+	width: 15%;
+	border-right: 1px solid black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul {
+	padding: 10px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul li.name {
+	font-size: 14px;
+	margin-bottom: 2px;
+	color: black;
+}
+
+.interior-holder .interior-content-container .interior-content .interior-name-date ul li.date {
+	font-size: 10px;
+	color: black;
+}
+
+/**** Tablet Records Page ********/
+
+.records-content {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.records-content .records-image-container {
+	background-color: black;
+	width: 81%;
+	margin-left: 10%;
+}
+
+.records-content .records-image-container2 {
+	background-color: black;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.records-content .records-image-container3 {
+	background-color: black;
+	width: 66%;
+	margin-left: 17%;
+}
+
+.records-content .records-image-container4 {
+	background-color: black;
+	width: 83%;
+	margin-left: 9%;
+}
+
+.records-content .records-image-container img.records-census {
+	width: 250px;
+	height: 100px;
+	margin: 5px;
+}
+
+.records-content .records-image-container2 img.records-wwii {
+	width: 176px;
+	height: 200px;
+	margin: 8px;
+}
+
+.records-content .records-text-container {
+	background-color: gray;
+	margin-left: 10%;
+	margin-right: 9%;
+}
+
+.records-content .records-text-container2 {
+	background-color: gray;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.records-content .records-text-container p,
+.records-content .records-text-container2 p {
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.records-content .records-image-container3 img.records-obit {
+	width: 200px;
+	height: 159px;
+	margin: 5px;
+}
+
+.records-content .records-image-container4 img.records-ssdi {
+	width: 250px;
+	height: 88px;
+	margin: 8px;
+}
+
+/******* Tablet Profile Page ******************/
+
+.interior-holder {
+	width: 100%;
+	background-color: #D0D0D0;
+}
+
+.interior-holder .profile-header {
+
+}
+
+.interior-holder .profile-content-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	background-color: gray;
+}
+
+.interior-holder .profile-content-container.siblings {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.interior-holder .profile-content-container .profile-content {
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-image,
+.interior-holder .profile-content .profile-name-date {
+	float: left;
+}
+
+.interior-holder .profile-content-container .profile-content img.profile-image {
+	width: 30%;
+	border-right: 1px solid black;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul {
+	padding: 10px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul li.name {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+
+.interior-holder .profile-content-container .profile-content .profile-name-date ul li.date {
+	font-size: 16px;
+}
+
+}
