@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+       
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -45,6 +45,11 @@
 						(1923 - ??)
 					</li>
 				</ul> <!-- header-name-birth -->
+				<div class="extra-info-holder float-container">
+					<div class="family-holder info-holder"></div>
+					<div class="records-holder info-holder hidden"></div>
+					<div class="media-holder info-holder hidden"></div>
+				</div>
 			</div></a> <!-- container-header float-container -->
 
 			<div class="container-body">
@@ -75,9 +80,9 @@
 
 			<div class="container-footer">
 				<ul class="footer-tabs">
-					<li class="family"><a href="hasil-henly-bullock-jr/hasil-henly-bullock-jr-family.html">Family</a></li>
+					<li class="family"><a href="hasil-henly-bullock-jr/hasil-henly-bullock-jr-family.html" class="family-button" data-showclass="family-holder">Family</a></li>
 					<li class="media">Media</li>
-					<li><a href="hasil-henly-bullock-jr/hasil-henly-bullock-jr-records.html">Records</a></li>
+					<li><a href="hasil-henly-bullock-jr/hasil-henly-bullock-jr-records.html" class="records-button" data-showclass="records-holder">Records</a></li>
 				</ul> <!-- footer tabs -->
 			</div> <!-- container-footer -->
 			<!-- End Little Widget -->
@@ -348,7 +353,8 @@
 			<!-- End Little Widget -->
 		</div> <!-- container -->
 	<!-- End mobile post -->
-
+		<div class="add-nav">
+		</div> <!-- add-nav -->
         <div class="nav">
                 <a href="index.html"><img class="home" src="images/home-icon.png" /></a>
                 <img class="search" src="images/search-icon.png" />
@@ -356,19 +362,7 @@
 	</div> <!-- container-wrapper -->
 </div> <!-- wrapper div -->
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='http://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>
