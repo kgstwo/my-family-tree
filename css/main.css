@@ -535,7 +535,7 @@ background-color: #A1AB00;
 	top:0%;
 	width: 90%;
 	height: 100%;
-	background-color: black;
+	background-color: #DFDBC2;
 	margin-left: 10px;
 	border-radius: 5px;
 	box-shadow: 2px 2px;
@@ -546,7 +546,6 @@ background-color: #A1AB00;
 	width: 100%;
 	height: 30%;
 	background-color: red;
-
 }
 
 .container .extra-info-holder .info-holder.hidden {
@@ -556,6 +555,7 @@ background-color: #A1AB00;
 .container .extra-info-holder .info-holder.records-holder {
 	background-color: blue;
 } 
+
 .container .extra-info-holder .info-holder.media-holder {
 	background-color: green;
 } 
