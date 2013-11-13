@@ -17,8 +17,7 @@ function hideShowInfo() {
 
 		$( '.'+classToHide ).removeClass('hidden');
 
+		// I should add an 'if' condition here so that if the document is at a certain width then i call the return false //
 		return false;
 	});
 }
-
-//test test test
