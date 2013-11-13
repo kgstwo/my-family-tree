@@ -526,6 +526,14 @@ background-color: #A1AB00;
 	overflow: hidden;
 }
 
+.container .container-footer .footer-tabs .family.selected {
+	background-color: #20243d;
+}
+
+.container .container-footer .footer-tabs .family.selected a {
+	color: white;
+}
+
 /*********** STUFF TAQQUI ADDED *****************************/
 
 .container .extra-info-holder {
