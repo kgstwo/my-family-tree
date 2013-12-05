@@ -13,8 +13,11 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/jquery.popdown.css">
         <link rel="stylesheet" href="../css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="../tipue-drop-3.0/tipuedrop/tipuedrop.css" rel="stylesheet">
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,24 +27,36 @@
         <!-- Add your site or application content here -->
         
 <div class="wrapper">
-	<div class="cell-info">
-	</div> <!-- cell info -->
+    <div class="cell-info">
+    </div> <!-- cell info -->
 
-	<div class="main-header">
-		<h1><a href="florence-wood-bullock-profile.html">Florence Wood-Bullock</a></h1>
-	</div> <!-- main-header -->
+    <div class="main-header">
+        <h1><a href="florence-wood-bullock-profile.html">Florence Wood-Bullock</a></h1>
+    </div> <!-- main-header -->
 
-    <div class="interior-nav">
+        <div class="interior-holder float-container">
+
+            <div class="interior-nav">
         <ul>
-            <li><a href="#">Family</a></li>
-            <li>Media</li>
-            <li><a href="florence-wood-bullock-records.html">Records</a></li>
+            <li class="current">
+                <a href="#">Family
+                </a>
+            </li>
+            <li>
+                <a href="florence-wood-bullock-media.html">
+                    Media
+                </a>
+            </li>
+            <li>
+                <a href="florence-wood-bullock-records.html">Records
+                </a>
+            </li>
         </ul>
     </div> <!-- interior-nav -->
 
-        <div class="interior-holder">
-            
-            <div class="interior-header">
+        <div class="int-hold">
+
+             <div class="interior-header">
                 <p>Parents</p>
             </div> <!-- interior-header -->
 
@@ -54,9 +69,9 @@
                         <li class="date">????</li>
                     </ul>
                 </div> <!-- interior-name-birth -->
-            </div> <!-- interior-content -->
+            </div></a> <!-- interior-content -->
 
-            <div class="interior-content">
+            <a href="#"><div class="interior-content">
                 <img class="interior-image" src="../images/woman-icon.jpg" /> <!-- interior-image -->
                 <div class="interior-name-date">
                     <ul>
@@ -65,22 +80,22 @@
                     </ul>
                 </div> <!-- interior-name-birth -->
             </div> <!-- interior-content -->
-        </div> <!-- interior-content-container -->
+        </div></a> <!-- interior-content-container -->
 
             <div class="interior-header">
                 <p>Spouse</p>
             </div> <!-- interior-header -->
 
         <div class="interior-content-container">
-            <div class="interior-content">
+            <a href="../hasil-henly-bullock-sr/hasil-henly-bullock-sr-profile.html"><div class="interior-content">
                 <img class="interior-image" src="../images/man-icon.jpg" /> <!-- interior-image -->
                 <div class="interior-name-date">
                     <ul>
-                        <li class="name">Hasil Henly Bullock</li>
+                        <li class="name">Hasil Henly Bullock Sr.</li>
                         <li class="date">1895 - 1951</li>
                     </ul>
                 </div> <!-- interior-name-birth -->
-            </div> <!-- interior-content -->
+            </div></a> <!-- interior-content -->
         </div> <!-- interior-content-container -->
 
                  <div class="interior-header">
@@ -89,7 +104,7 @@
 
         <div class="interior-content-container">
             <div class="interior-content">
-                <img class="interior-image" src="../images/man-icon.jpg" /> <!-- interior-image -->
+                <img class="interior-image" src="../images/woman-icon.jpg" /> <!-- interior-image -->
                 <div class="interior-name-date">
                     <ul>
                         <li class="name">Lacy Bullock</li>
@@ -102,7 +117,7 @@
                 <img class="interior-image" src="../images/woman-icon.jpg" /> <!-- interior-image -->
                 <div class="interior-name-date">
                     <ul>
-                        <li class="name">Anna Mae Watson-Bullock</li>
+                        <li class="name">Anna Mae Bullock-Watson</li>
                         <li class="date">1921 - 1984</li>
                     </ul>
                 </div> <!-- interior-name-birth -->
@@ -142,7 +157,7 @@
                 <img class="interior-image" src="../images/woman-icon.jpg" /> <!-- interior-image -->
                 <div class="interior-name-date">
                     <ul>
-                        <li class="name">Juanita A. Bullock-May</li>
+                        <li class="name">Juanita Bullock-May</li>
                         <li class="date">1930 - 2010</li>
                     </ul>
                 </div> <!-- interior-name-birth -->
@@ -150,10 +165,20 @@
         </div> <!-- interior-content-container -->
 
         </div> <!-- interior-holder -->
+    </div> <!-- int-hold -->
+
+    <div class="add-nav">
+        </div> <!-- add-nav (additional nav so that bottom content shows) -->
 
         <div class="nav">
-                <a href="../index.html"><img class="home" src="../images/home-icon.png" /></a>
-                <img class="search" src="../images/search-icon.png" />
+                <a href="../index.html">
+                    <img class="home" src="../images/home-icon.png" />
+                </a>
+                <img class="search-icon" src="../images/search-icon.png" />
+                <div class="search">
+            <input type="text" id="tipue_drop_input" autocomplete="off">
+            </div class="search2">
+            <div id="tipue_drop_content"></div>
         </div> <!-- nav -->
 
 </div> <!-- wrapper div -->

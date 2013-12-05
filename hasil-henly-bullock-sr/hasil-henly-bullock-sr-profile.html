@@ -13,8 +13,11 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/jquery.popdown.css">
         <link rel="stylesheet" href="../css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="../tipue-drop-3.0/tipuedrop/tipuedrop.css" rel="stylesheet">
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -62,9 +65,18 @@
 
         </div> <!-- interior-holder -->
 
+        <div class="add-nav">
+        </div> <!-- add-nav (additional nav so that bottom content shows) -->
+
         <div class="nav">
-                <a href="../index.html"><img class="home" src="../images/home-icon.png" /></a>
-                <img class="search" src="../images/search-icon.png" />
+                <a href="../index.html">
+                    <img class="home" src="../images/home-icon.png" />
+                </a>
+                <img class="search-icon" src="../images/search-icon.png" />
+                <div class="search">
+            <input type="text" id="tipue_drop_input" autocomplete="off">
+            </div class="search2">
+            <div id="tipue_drop_content"></div>
         </div> <!-- nav -->
 
 </div> <!-- wrapper div -->

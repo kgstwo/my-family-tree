@@ -1,13 +1,28 @@
-/*************** MOBILE STYLES ***********************/
+/*************** MOBILE STYLES ***************************************/
+/*********************************************************************/
 
 @media screen and ( min-width: 320px ) and ( max-width: 767px ) {
 
-/**** Mobile Main Page ****/
+/****************** MOBILE MAIN PAGE ***********************/
 
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
-	background-color: #A1AB00;
+	position: absolute;
+	/*height: 100%;*/
+	/*background-color: #A1AB00;*/
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #A0AB00),
+	color-stop(0.47, #889200)
+);
+background-image: -o-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
+background-image: -moz-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
+background-image: -webkit-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
+background-image: -ms-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
+background-image: linear-gradient(to bottom, #A0AB00 0%, #889200 47%);
 }
 
 .cell-info {
@@ -17,7 +32,7 @@
 }
 
 .main-header {
-	width: 100%;content:   
+	width: 100%:   
 	margin: 0 auto;
 	border-bottom: 2px solid black;
 	border-top-left-radius: 25px 25px;
@@ -31,6 +46,7 @@
 	color: white;
 	padding: 5px 0px 5px 0px;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 .main-header h1 a {
@@ -39,12 +55,13 @@
 }
 
 .container {
-	width: 95%;
-	margin: 0 auto;
+	width: 300px;
 	background-color: #DFDBC2;
-	margin: 10px;
 	border-radius: 5px;
 	box-shadow: 2px 2px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .container-header {
@@ -52,6 +69,23 @@
 	overflow: hidden;
 	padding: 5px 0px 5px 5px;
 	border-bottom: 1px solid black;
+	/*background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));*/
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	/*background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);*/
+	/*padding: 4.5px 9px;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 .container-header .header-image img {
@@ -75,8 +109,9 @@
 }
 
 .container .container-body {
-	width: 100%;
+	width: 97%;
 	padding: 10px 0px 10px 10px;
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
 }
 
 .container .container-body .little-widget {
@@ -121,6 +156,23 @@
 .container .container-footer .footer-tabs {
 	overflow: hidden;
 	border-top: 1px solid black;
+	/*background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));*/
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	/*background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);*/
+	/*padding: 4.5px 9px;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 .container .container-footer .footer-tabs li {
@@ -147,8 +199,19 @@
 .nav {
 	width: 100%;
 	margin: 0 auto;
-	border: 1px solid black;
-	background-color: gray;
+	border: 2px solid black;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.14, #7F7F7F),
+	color-stop(0.79, #A6A6A6)
+);
+background-image: -o-linear-gradient(bottom, #7F7F7F 14%, #A6A6A6 79%);
+background-image: -moz-linear-gradient(bottom, #7F7F7F 14%, #A6A6A6 79%);
+background-image: -webkit-linear-gradient(bottom, #7F7F7F 14%, #A6A6A6 79%);
+background-image: -ms-linear-gradient(bottom, #7F7F7F 14%, #A6A6A6 79%);
+background-image: linear-gradient(to bottom, #7F7F7F 14%, #A6A6A6 79%);
 	position: fixed;
 	bottom: 0px;
 }
@@ -160,7 +223,17 @@
 	margin: 0px 60px 0px 60px;
 }
 
-/****** Mobile Family Page *****/
+.nav .search,
+.nav .search2 {
+	display: none;
+}
+
+.add-nav {
+	width: 100%;
+	height: 50px;
+}
+
+/******************** MOBILE FAMILY PAGE ********************/
 
 .interior-nav {
 	width: 100%;
@@ -242,83 +315,28 @@
 	color: black;
 }
 
-/**** Mobile Records Page ********/
+/*.current {
 
-.records-content {
-	width: 100%;
-	padding-bottom: 10px;
+}*/
+
+/***************** MOBILE RECORDS PAGE ********************/
+
+p a.btn {
+	display: inline-block;
+	border: 4px solid #d8d8d8;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
 }
 
-.records-content .records-image-container {
-	background-color: black;
-	width: 81%;
-	margin-left: 10%;
-}
-
-.records-content .records-image-container2 {
-	background-color: black;
-	width: 60%;
-	margin-left: 20%;
-}
-
-.records-content .records-image-container3 {
-	background-color: black;
-	width: 66%;
-	margin-left: 17%;
-}
-
-.records-content .records-image-container4 {
-	background-color: black;
-	width: 83%;
-	margin-left: 9%;
-}
-
-.records-content .records-image-container img.records-census {
-	width: 250px;
-	height: 100px;
-	margin: 5px;
-}
-
-.records-content .records-image-container2 img.records-wwii {
-	width: 176px;
-	height: 200px;
-	margin: 8px;
-}
-
-.records-content .records-text-container {
-	background-color: gray;
-	margin-left: 10%;
-	margin-right: 9%;
-}
-
-.records-content .records-text-container2 {
-	background-color: gray;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.records-content .records-text-container p,
-.records-content .records-text-container2 p {
-	font-family: sans-serif;
-	font-size: 14px;
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-.records-content .records-image-container3 img.records-obit {
-	width: 200px;
-	height: 159px;
-	margin: 5px;
-}
-
-.records-content .records-image-container4 img.records-ssdi {
-	width: 250px;
-	height: 88px;
-	margin: 8px;
-}
-
-/******* Mobile Profile Page ******************/
+/****************** MOBILE PROFILE PAGE *********************/
 
 .interior-holder {
 	width: 100%;
@@ -370,35 +388,63 @@
 	font-size: 16px;
 }
 
+/*************** MOBILE MEDIA PAGE ****************************/
+
+.map {
+	border: 2px solid #dfdbc2;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 10px;
 }
 
+.map h2 {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 10px;
+	background-color: #f3f3ef;
+}
 
+iframe {
+	width: 100%;
+}
+
+small a img {
+	width: 6%;
+	margin-bottom: 40px;
+}
+
+} /* @media close
 
 /************************* TABLET STYLES ***************************/
+/*******************************************************************/
 
-@media screen and ( min-width: 768px ) and ( max-width: 991px) {
+@media screen and ( min-width: 768px ) and ( max-width: 1240px) {
 
 .wrapper {
 width: 100%;
 margin: 0 auto;
 background-color: #A1AB00;
+position: absolute;
+height: 500%;
+
 }
 
 .container-wrapper {
 	overflow: hidden;
-	margin: 0px 25px 0px 25px;
-	border-top-left-radius: 25px 25px;
-	border-top-right-radius: 25px 25px;
+	margin: 0 auto;
+	border-radius: 25px;
 	background-color: #899200;
 	padding-bottom: 10px;
+	width: 700px;
+	margin-top: 10px;
+	/*position: absolute;
+	height: 100%;*/
 }
 
 .main-header {
-	width: 100%;
-	border-top-left-radius: 20px 20px;
-	border-top-right-radius: 20px 20px;
-	margin-bottom: 5px;
-	padding-top: 5px;
+	width: 700px;
+	padding-top: 10px;
+	margin: auto;
 }
 
 .main-header h1 {
@@ -422,7 +468,27 @@ background-color: #A1AB00;
 	border-radius: 5px;
 	box-shadow: 2px 2px;
 	float: left;
-	position: relative;
+	/*position: relative;*/
+}
+
+.container.one {
+	width: 316px;
+	background-color: #DFDBC2;
+	margin: 20px 10px 0px 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px;
+	float: left;
+	/*position: relative;*/
+}
+
+.container.two {
+	width: 316px;
+	background-color: #DFDBC2;
+	margin: 20px 20px 0px 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px;
+	float: right;
+	/*position: relative;*/
 }
 
 .container-header {
@@ -430,6 +496,27 @@ background-color: #A1AB00;
 	overflow: hidden;
 	padding: 5px 0px 5px 5px;
 	border-bottom: 1px solid black;
+	/*background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));*/
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	/*background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);*/
+	/*padding: 4.5px 9px;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.container-header:hover {
+	background-color: #c8c5ae;
 }
 
 .container-header .header-image img {
@@ -453,8 +540,9 @@ background-color: #A1AB00;
 }
 
 .container .container-body {
-	width: 100%;
+	width: 97%;
 	padding: 10px 0px 10px 10px;
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
 }
 
 .container .container-body .little-widget {
@@ -499,6 +587,23 @@ background-color: #A1AB00;
 .container .container-footer .footer-tabs {
 	overflow: hidden;
 	border-top: 1px solid black;
+	/*background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));*/
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	/*background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);*/
+	/*padding: 4.5px 9px;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 .container .container-footer .footer-tabs li {
@@ -526,63 +631,14 @@ background-color: #A1AB00;
 	overflow: hidden;
 }
 
-.container .container-footer .footer-tabs .family.selected {
-	background-color: #20243d;
-}
-
-.container .container-footer .footer-tabs .family.selected a {
-	color: white;
-}
-
-/*********** STUFF TAQQUI ADDED *****************************/
-
-.container .extra-info-holder {
-	display: block;
-	position: absolute;
-	left: 100%;
-	top:0%;
-	width: 91%;
-	height: 100%;
-	background-color: #DFDBC2;
-	margin-left: 10px;
-	border-radius: 5px;
-	box-shadow: 2px 2px;
-}
-
-.container .extra-info-holder .info-holder {
-	float: left;
-	width: 100%;
-	height: 100%;
-	background-color: red;
-}
-
-.container .extra-info-holder .info-holder.hidden {
-	display: none;
-}
-
-.container .extra-info-holder .info-holder.records-holder {
-	background-color: blue;
-} 
-
-.container .extra-info-holder .info-holder.media-holder {
-	background-color: green;
-} 
-
-.add-nav {
-	width: 100%;
-	height: 50px;
-}
-
-/****** END ***********************************************/
-
 .nav {
-	width: 35%;
+	width: 400px;
 	margin: 0 auto;
 	/*border: 1px solid black;*/
 	/*background-color: gray;*/
 	position: absolute;
-	top: 2px;
-	right: -20px;
+	top: 7px;
+	right: -100px;
 }
 
 .nav img {
@@ -592,35 +648,38 @@ background-color: #A1AB00;
 	margin: 0px 5px 0px 5px;
 }
 
-/****** Tablet Family Page *****/
-
-.interior-nav {
-	width: 100%;
-	background-color: #DFDBC2;
-	border-bottom: 2px solid black;
+.nav img.search-icon {
+	display: none;
 }
 
-.interior-nav ul {
-	overflow: hidden;
-	padding: 5px;
+.nav .search {
+	position: absolute;
+	top: 3px;
+	right: 160px;
 }
 
-.interior-nav ul li {
-	float: left;
-	font-family: sans-serif;
-	width: 20%;
-	margin-left: 11%;
+.nav .search input#tipue_drop_input {
+	border-radius: 5px;
+	width: 144px;
 }
 
-.interior-nav ul li a {
-	text-decoration: none;
-	color: black;
-}
+/*************** TABLET FAMILY PAGE ******************/
 
 .interior-holder {
-	width: 100%;
+	width: 92%;
 	margin: 0 auto;
-	background-color: #D0D0D0;
+	background-color: #899200;
+	margin: 0px 25px 0px 25px;
+	border-top-left-radius: 25px 25px;
+	border-top-right-radius: 25px 25px;
+}
+
+.interior-holder .int-hold .interior-header {
+	float: left;
+	width: 70%;
+	background-color: #DFDBC2;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 .interior-holder .interior-header p {
@@ -631,14 +690,59 @@ background-color: #A1AB00;
 	text-align: center;
 }
 
+.int-hold {
+	margin: 25px 0px 0px 20px;
+}
+
+.interior-nav {
+	width: 25%;
+	float: right;
+	margin-top: 10px;
+}
+
+.interior-nav ul {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.interior-nav ul li {
+	float: left;
+	font-family: sans-serif;
+	width: 90%;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.interior-nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.current {
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 5px;
+}
+
+.interior-nav ul li a:hover {
+	color: white;
+}
+
 .interior-holder .interior-content-container {
 	border-bottom: 1px solid black;
 	margin-bottom: 10px;
 	background-color: white;
+	float: left;
+	width: 70%;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 .interior-holder .interior-content-container.siblings {
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	border-bottom: none;
 }
 
@@ -674,87 +778,34 @@ background-color: #A1AB00;
 	color: black;
 }
 
-/**** Tablet Records Page ********/
+/***************** TABLET RECORDS PAGE ***************/
 
-.records-content {
-	width: 100%;
-	padding-bottom: 10px;
-}
-
-.records-content .records-image-container {
-	background-color: black;
-	width: 81%;
-	margin-left: 10%;
-}
-
-.records-content .records-image-container2 {
-	background-color: black;
-	width: 60%;
-	margin-left: 20%;
-}
-
-.records-content .records-image-container3 {
-	background-color: black;
-	width: 66%;
-	margin-left: 17%;
-}
-
-.records-content .records-image-container4 {
-	background-color: black;
-	width: 83%;
-	margin-left: 9%;
-}
-
-.records-content .records-image-container img.records-census {
-	width: 250px;
-	height: 100px;
-	margin: 5px;
-}
-
-.records-content .records-image-container2 img.records-wwii {
-	width: 176px;
-	height: 200px;
-	margin: 8px;
-}
-
-.records-content .records-text-container {
-	background-color: gray;
-	margin-left: 10%;
-	margin-right: 9%;
-}
-
-.records-content .records-text-container2 {
-	background-color: gray;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.records-content .records-text-container p,
-.records-content .records-text-container2 p {
+p a.btn {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
 	font-family: sans-serif;
-	font-size: 14px;
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	background: -webkit-linear-gradient(top, #dfdbc2, #b2af98);
+	width: 68%;
+	margin-bottom: 10px;
 }
 
-.records-content .records-image-container3 img.records-obit {
-	width: 200px;
-	height: 159px;
-	margin: 5px;
-}
-
-.records-content .records-image-container4 img.records-ssdi {
-	width: 250px;
-	height: 88px;
-	margin: 8px;
-}
-
-/******* Tablet Profile Page ******************/
+/**************** TABLET PROFILE PAGE ******************/
 
 .interior-holder {
-	width: 100%;
-	background-color: #D0D0D0;
+	width: 700px;
+	background-color: #899200;
+	margin: 0 auto;
+	border-radius: 25px;
+	margin-top: 10px;
 }
 
 .interior-holder .profile-header {
@@ -802,4 +853,25 @@ background-color: #A1AB00;
 	font-size: 16px;
 }
 
+/**************** TABLET MEDIA PAGE **********************/
+
+.map {
+	border: 2px solid #dfdbc2;
+	width: 425px;
+	height: 350px;
+	border-radius: 5px;
+	margin-bottom: 5px;
 }
+
+.map h2 {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 10px;
+	background-color: #f3f3ef;
+}
+
+small a img {
+	width: 3%;
+}
+
+} /* @media close

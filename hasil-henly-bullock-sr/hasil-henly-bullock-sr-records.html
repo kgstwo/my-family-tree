@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -13,8 +14,11 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/jquery.popdown.css">
         <link rel="stylesheet" href="../css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="../tipue-drop-3.0/tipuedrop/tipuedrop.css" rel="stylesheet">
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,62 +28,92 @@
         <!-- Add your site or application content here -->
         
 <div class="wrapper">
-	<div class="cell-info">
-	</div> <!-- cell info -->
+    <div class="cell-info">
+    </div> <!-- cell info -->
 
-	<div class="main-header">
-		<h1>Hasil Henly Bullock Sr.</h1>
-	</div> <!-- main-header -->
+    <div class="main-header">
+        <h1><a href="hasil-henly-bullock-jr-profile.html">Hasil Henly Bullock Sr.</a></h1>
+    </div> <!-- main-header -->
+
+    <div class="interior-holder float-container">
 
     <div class="interior-nav">
         <ul>
-            <li><a href="hasil-henly-bullock-sr/hasil-henly-bullock-sr-family.html">Family</a></li>
-            <li>Media</li>
-            <li><a href="#">Records</a></li>
+            <li>
+                <a href="hasil-henly-bullock-sr-family.html">Family
+                </a>
+            </li>
+            <li>
+                <a href="hasil-henly-bullock-sr-media.html">Media
+                </a>
+            </li>
+            <li class="current">
+                <a href="#">Records
+                </a>
+            </li>
         </ul>
     </div> <!-- interior-nav -->
 
-    <div class="interior-holder">
+        <div class="int-hold">
+
+    
+
+        <p>
+            <a href="#" class="popdown btn" title="Death Records">Death Records</a>
+            <a href="#" class="popdown btn" title="US SSDI Records">US SSDI Records</a>
+        </p>
+
+        </div> <!-- int-hold -->
             
-        <div class="interior-header">
-            <p>Death Records</p>
-        </div> <!-- interior-header -->
-
-            <div class="records-content">
-                <div class="records-image-container3">
-                    <img class="records-obit" src="../images/hasil-henly-bullock-sr-records/hasil-henly-bullock-sr-interment.png" /> <!-- records -->
-                </div> <!-- records-image-container -->
-                <div class="records-text-container">
-                    <p>Report of Interment</p>
-                </div> <!-- records-text-container -->
-            </div> <!-- records-content -->
-
-        <div class="interior-header">
-            <p>US SSDI Records</p>
-        </div> <!-- interior-header -->
-
-            <div class="records-content">
-                <div class="records-image-container4">
-                    <img class="records-ssdi" src="../images/virginia-ray-bullock-records/virginia-ray-bullock-ssdi.png" /> <!-- records -->
-                </div> <!-- records-image-container -->
-                <div class="records-text-container2">
-                    <p>Social Security Death Index</p>
-                </div> <!-- records-text-container -->
-            </div> <!-- records-content -->
-
     </div> <!-- interior-holder -->
 
+    <!-- <div class="interior-header">
+            <p>US Census Records</p> -->
+       <!--  </div> --> <!-- interior-header -->
+
+            <!-- <div class="records-content">
+                <div class="records-image-container">
+                    <img class="records-census" src="../images/hasil-henly-bullock-jr-records/bullock-1930-us-census-records.png" />  --><!-- records -->
+                <!-- </div> --> <!-- records-image-container -->
+               <!--  <div class="records-text-container">
+                    <p>1930 US Census Record</p> -->
+               <!--  </div> --> <!-- records-text-container -->
+           <!--  </div>  --><!-- records-content -->
+
+       <!--  <div class="interior-header">
+            <p>US Army Records</p> -->
+       <!--  </div> --> <!-- interior-header -->
+
+            <!-- <div class="records-content">
+                <div class="records-image-container2">
+                    <img class="records-wwii" src="../images/hasil-henly-bullock-jr-records/hasil-henly-wwii-enlistment-records.png" /> --> <!-- records -->
+                <!-- </div>  --><!-- records-image-container -->
+               <!--  <div class="records-text-container2"> -->
+                   <!--  <p>US World War II Army Enlistment Record</p> -->
+               <!--  </div>  --><!-- records-text-container -->
+          <!--   </div> --> <!-- records-content -->
+
+          <div class="add-nav">
+        </div> <!-- add-nav (additional nav so that bottom content shows) -->
+
     <div class="nav">
-                <a href="../index.html"><img class="home" src="../images/home-icon.png" /></a>
-                <img class="search" src="../images/search-icon.png" />
-        </div> <!-- nav -->
+                <a href="../index.html">
+                    <img class="home" src="../images/home-icon.png" />
+                </a>
+                <img class="search-icon" src="../images/search-icon.png" />
+                <div class="search">
+            <input type="text" id="tipue_drop_input" autocomplete="off">
+            </div class="search2">
+            <div id="tipue_drop_content"></div>
 
 </div> <!-- wrapper div -->
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/jquery.popdown.js"></script>
+        <script src="../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
