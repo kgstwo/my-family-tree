@@ -10,8 +10,8 @@
 	margin: 0 auto;
 	position: absolute;
 	/*height: 100%;*/
-	/*background-color: #A1AB00;*/
-	background-image: -webkit-gradient(
+	background-color: #A1AB00;
+	/*background-image: -webkit-gradient(
 	linear,
 	left top,
 	left bottom,
@@ -22,7 +22,8 @@ background-image: -o-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
 background-image: -moz-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
 background-image: -webkit-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
 background-image: -ms-linear-gradient(bottom, #A0AB00 0%, #889200 47%);
-background-image: linear-gradient(to bottom, #A0AB00 0%, #889200 47%);
+background-image: linear-gradient(to bottom, #A0AB00 0%, #889200 47%);*/
+
 }
 
 .cell-info {
